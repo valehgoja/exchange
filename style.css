@@ -1,0 +1,265 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    padding: 0 100px;
+    width: calc(100% - 200px);
+    height: 50px;
+    align-items: center;
+    position: relative;
+    background-color: #F5F5F6;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    align-items: center;
+}
+
+.menu li {
+    padding: 0 15px;
+}
+.menu li a:hover{
+    color: #000000;
+    font-weight: bold;
+}
+
+.menu li a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+    color: #959BA4;
+}
+
+.bankWord {
+    width: 89px;
+    height: 23px;
+    margin-right: 64px;
+}
+
+.boyti {
+    width: 58px;
+    height: 33px;
+
+
+    background-color: #FFFFFF;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    color: #000000;
+}
+
+.header-right {
+    position: absolute;
+    right: 100px;
+}
+
+.converterWord {
+    position: absolute;
+    width: 587px;
+    height: 32px;
+    left: 253px;
+    top: 106px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+}
+
+.yazi {
+    position: absolute;
+    width: 120px;
+    height: 28px;
+    left: 253px;
+    top: 171px;
+    color: #9F9F9F;
+    font-family: 'Roboto';
+}
+
+.exchange {
+    position: absolute;
+    width: 259px;
+    height: 30px;
+    left: 253px;
+    top: 200px;
+    border: 1px solid #E5E5E5;
+    display: flex;
+
+}
+
+.exchange button {
+    position: relative;
+    width: 64.75px;
+    height: 30px;
+    border: 1px solid #E5E5E5;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    background-color: #FFFFFF;
+    color: #C6C6C6;
+}
+.exchange button.active{
+    background-color: #000000 ;
+}
+
+.area {
+    position: absolute;
+    width: 259px;
+    height: 102px;
+    left: 253px;
+    top: 250px;
+
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.area input {
+    position: absolute;
+    width: 124px;
+    height: 38px;
+
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    border: 1px solid #C6C6C6;
+
+    color: #000000;
+    margin: 5px;
+    box-sizing: border-box;
+    border-radius: 3px;
+
+}
+
+.area .footer-1 {
+    position: absolute;
+    width: 250px;
+    height: 28px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+
+    color: #C6C6C6;
+    margin-top: 75px;
+    margin-left: 10px;
+}
+
+/*
+
+part 2
+
+*/
+
+.yazi-2 {
+    position: absolute;
+    width: 150px;
+    height: 28px;
+    left: 635px;
+    top: 171px;
+    color: #9F9F9F;
+    font-family: 'Roboto';
+}
+.exchange-2 {
+    position: absolute;
+    width: 259px;
+    height: 30px;
+    left: 635px;
+    top: 200px;
+    border: 1px solid #E5E5E5;
+    display: flex;
+
+}
+
+.exchange-2 button {
+    position: relative;
+    width: 64.75px;
+    height: 30px;
+    border: 1px solid #E5E5E5;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    background-color: #FFFFFF;
+    color: #C6C6C6;
+}
+
+
+
+.area-2 {
+    position: absolute;
+    width: 259px;
+    height: 102px;
+    left: 635px;
+    top: 250px;
+
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.area-2 input {
+    position: absolute;
+    width: 124px;
+    height: 38px;
+
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    border: 1px solid #C6C6C6;
+
+    color: #000000;
+    margin: 5px;
+    box-sizing: border-box;
+    border-radius: 3px;
+
+}
+
+.area-2 .footer-2 {
+    position: absolute;
+    width: 250px;
+    height: 28px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+
+    color: #C6C6C6;
+    margin-top: 75px;
+    margin-left: 10px;
+}
